@@ -26,3 +26,5 @@
 
 /** If you don't want colourised context menus, remove this line */
 @import url("_contextMenuThemeColours.css");
+
+@import url("user.css");
