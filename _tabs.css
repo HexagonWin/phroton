@@ -2,7 +2,7 @@
  * //
  * // TABS HEIGHT
  * //
- */
+ *//*
 #TabsToolbar
 {
   height: 33px;
@@ -21,7 +21,7 @@
 [uidensity="touch"] #TabsToolbar
 {
   height: 41px;
-}
+}*/ /* For SlimFox */
 
 /** Fake tab line colour if transparent set by the theme */
 #tabbrowser-tabs[style*="--lwt-tab-line-color: rgba(0, 0, 0, 0)"] .tab-context-line
@@ -39,10 +39,10 @@
 .tabbrowser-tab[busy] .tab-label-container{
   margin-left: 21.5px;
 }
-
+/*
 .tab-icon-stack {
   position: absolute;
-  min-height: 22px; /* this seems to fix throbber positioning issues */
+  min-height: 22px; /* this seems to fix throbber positioning issues *//*
   bottom: 5px;
   width: calc(100% - 6px - 48px);
 }
@@ -51,7 +51,7 @@
 {
   bottom: 3px;
 }
-
+*/
 [uidensity="touch"] .tab-icon-stack
 {
   bottom: 9px;

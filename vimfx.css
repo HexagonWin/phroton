@@ -1,0 +1,17 @@
+#VimFxMarkersContainer .marker {
+  padding: 1px 2px 0 2px !important;
+  background-color: #fccce3 !important;
+  border: solid 1px #AD810C !important;
+  border-radius: 2px !important;
+  font-size: 13px !important;
+  color: #302505 !important;
+  font-family: "Helvetica Neue", "Helvetica", "Arial", "Sans" !important;
+  font-weight: bold !important;
+}
+#VimFxMarkersContainer .marker--matched,
+#VimFxMarkersContainer .marker-char--matched {
+  color: #FFA22A !important;
+}
+#VimFxMarkersContainer .marker--highlighted {
+  background-color: #FFD76E !important;
+}

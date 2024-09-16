@@ -122,7 +122,7 @@
   }
   
   /** Tab Bar - Reduce Height, Show more contents *****************************/
-  /* Toolbar Height */
+  /* Toolbar Height *//*
   #TabsToolbar {
     --tab-min-height: 33px !important;
   }
@@ -131,7 +131,7 @@
   }
   :root[uidensity=touch] #TabsToolbar {
     --tab-min-height: 41px !important;
-  }
+  }*/ /* For slimfox */
   
   /* Top Margin */
   .tab-background, .tab-content {
