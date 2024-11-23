@@ -1,23 +1,36 @@
-:root[sizemode="normal"] #nav-bar{ --uc-window-drag-space-width: 20px }
-#titlebar{ -moz-appearance: none !important; }
-#tabbrowser-tabs, #tabbrowser-tabs > .tabbrowser-arrowscrollbox, #tabbrowser-arrowscrollbox{ min-height: 0 !important; }
+:root[sizemode="normal"] #nav-bar {
+	--uc-window-drag-space-width: 20px
+}
+
+#titlebar {
+	-moz-appearance: none !important;
+}
+/*
+#tabbrowser-tabs,
+#tabbrowser-tabs > .tabbrowser-arrowscrollbox,
+#tabbrowser-arrowscrollbox {
+	min-height: 0 !important;
+}
+/*
 :root:not([customizing]) #tabbrowser-tabs .tabs-newtab-button,
 :root:not([customizing]) #tabs-newtab-button,
 :root:not([customizing]) #TabsToolbar-customization-target > .toolbarbutton-1,
-:root:not([customizing]) #TabsToolbar .titlebar-button{
-  -moz-appearance: none !important;
-  height: 43px;
-  padding-top: 0px !important;
-  padding-bottom: 0px !important;
-  -moz-box-align: stretch;
-  margin: 0 !important;
-}
-:root:not([customizing]) #TabsToolbar-customization-target > .toolbarbutton-1 > .toolbarbutton-icon{
-  padding-block: 0px !important;
-  max-height: 28px;
-  height: 20px !important
+:root:not([customizing]) #TabsToolbar .titlebar-button {
+	-moz-appearance: none !important;
+	padding-top: 0px !important;
+	padding-bottom: 0px !important;
+	-moz-box-align: stretch;
+	margin: 0 !important;
 }
 
-#tabs-newtab-button, #alltabs-button, #tabbrowser-tabs .tabbrowser-tab:only-of-type{
-  visibility: collapse !important;
+:root:not([customizing]) #TabsToolbar-customization-target > .toolbarbutton-1 > .toolbarbutton-icon {
+	padding-block: 0px !important;
+	max-height: 28px;
+	height: 20px !important
+}
+*/
+#tabbrowser-tabs:has(.tabbrowser-tab:only-of-type) #tabs-newtab-button,
+#TabsToolbar-customization-target:has(.tabbrowser-tab:only-of-type) #alltabs-button,
+#tabbrowser-tabs .tabbrowser-tab:only-of-type {
+	visibility: collapse !important;
 }

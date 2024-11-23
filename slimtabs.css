@@ -1,6 +1,6 @@
 :root {
   --tab-max-height: 17px !important;
-  --tab-min-height: 0 !important;
+  --tab-min-height: 17px !important;
 }
 #urlbar-container, #urlbar {
   --tab-max-height: 17px !important;

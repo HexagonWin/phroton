@@ -5,5 +5,17 @@
   display: none;
 }
 
-
 #back-button, #forward-button { display:none!important; }
+
+/* margin between favicon and tab name */
+.tabbrowser-tab[image] .tab-label-container, .tabbrowser-tab[pendingicon] .tab-label-container, .tabbrowser-tab[busy] .tab-label-container {
+  margin-left: 0;
+}
+.tab-icon-stack { width: auto !important; }
+
+/* hide menu icon */
+#PanelUI-button { display: none !important; }
+
+/* since esr128? we get 1px black bottom border on navbar.. so hide that and create another */
+#navigator-toolbox { border-bottom: 0 !important; }
+#nav-bar { border-bottom: 1px solid var(--toolbar-bgcolor) !important; }
