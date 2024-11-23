@@ -19,6 +19,3 @@
 /* since esr128? we get 1px black bottom border on navbar.. so hide that and create another */
 #navigator-toolbox { border-bottom: 0 !important; }
 #nav-bar { border-bottom: 1px solid var(--toolbar-bgcolor) !important; }
-
-/* mute icon was showing weirdly */
-.tab-icon-overlay { position: absolute; }
