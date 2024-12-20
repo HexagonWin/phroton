@@ -1,6 +1,7 @@
 #VimFxMarkersContainer .marker {
   padding: 1px 2px 0 2px !important;
-  background-color: #fccce3 !important;
+  !background-color: #fccce3 !important;
+  background-color: rgb(252,204,227, .5) !important;
   border: solid 1px #AD810C !important;
   border-radius: 2px !important;
   font-size: 13px !important;
@@ -14,4 +15,7 @@
 }
 #VimFxMarkersContainer .marker--highlighted {
   background-color: #FFD76E !important;
+}
+#main-window[vimfx-mode="ignore"] #urlbar-background {
+    background: #0ff !important;
 }
