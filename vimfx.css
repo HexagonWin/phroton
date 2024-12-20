@@ -9,6 +9,10 @@
   font-family: "Helvetica Neue", "Helvetica", "Arial", "Sans" !important;
   font-weight: bold !important;
 }
+#VimFxMarkersContainer .marker:has(.marker-char--matched) {
+  background-color: rgb(252,204,227) !important;
+}
+  
 #VimFxMarkersContainer .marker--matched,
 #VimFxMarkersContainer .marker-char--matched {
   color: #FFA22A !important;
