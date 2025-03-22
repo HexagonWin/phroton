@@ -6,6 +6,9 @@
  * Icons will render as black otherwise.
  */
 
+@import url("tabs_on_bottom_v2.css");
+@import url("vimfx.css");
+
 @import url("_base.css");
 @import url("_defaultThemeLight.css");
 @import url("_defaultThemeDark.css");
@@ -30,5 +33,4 @@
 @import url("user.css");
 @import url("singletab.css");
 @import url("slimtabs.css");
-@import url("tabs_on_bottom.css");
-@import url("vimfx.css");
+/*@import url("tabs_on_bottom.css");*/

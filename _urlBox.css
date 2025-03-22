@@ -127,8 +127,9 @@
 #urlbar[breakout][breakout-extend]
 {
   top: calc((var(--urlbar-toolbar-height) - var(--urlbar-height)) / 2) !important;
+  /* Disabled for FFv134!
   left: 0 !important;
-  width: 100% !important;
+  width: 100% !important;*/
 }
 
 #urlbar[breakout][breakout-extend] > #urlbar-input-container

@@ -29,6 +29,7 @@
 	height: 20px !important
 }
 */
+#tabbrowser-tabs:has(.tabbrowser-tab:only-of-type),
 #tabbrowser-tabs:has(.tabbrowser-tab:only-of-type) #tabs-newtab-button,
 #TabsToolbar-customization-target:has(.tabbrowser-tab:only-of-type) #alltabs-button,
 #tabbrowser-tabs .tabbrowser-tab:only-of-type {

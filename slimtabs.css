@@ -8,10 +8,12 @@
   --urlbar-height: var(--tab-max-height) !important;
   --urlbar-toolbar-height: var(--tab-max-height) !important;
   --urlbar-container-height: var(--tab-max-height) !important;
+  min-height: unset !important;
 }
 
 #urlbar-container {
-  min-height: 17px !important;
+/*  min-height: 17px !important; */
+  min-height: unset !important;
 }
 
 /* Bar resizing */
@@ -44,4 +46,13 @@
 #nav-bar toolbaritem #star-button-box:focus-visible,
 #nav-bar toolbaritem .unified-extensions-item-action-button:focus-visible {
   background-color: var(--slimbar-highlight-color) !important;
+}
+
+/* added for FF 134 */
+#tabbrowser-tabs {
+  min-height: unset !important;
+  max-height: 17px;
+}
+#urlbar[focused] > #urlbar-background, #searchbar:focus-within {
+  box-shadow: unset !important;
 }
