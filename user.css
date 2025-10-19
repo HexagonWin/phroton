@@ -24,3 +24,19 @@
 .tab-icon-overlay { position: absolute; }
 
 .private-browsing-indicator-with-label { display: none; }
+
+/****************************************/
+/* url bar suggestion compact */
+.urlbarView { margin-inline: 5px !important; }
+.urlbarView-row-inner { padding-block: 0px !important; }
+.urlbarView-favicon {
+    margin-inline-start: 2px !important;
+    margin-inline-end: 2px !important;
+}
+.urlbarView-type-icon { display: none !important; }
+.urlbarView-row[label] { margin-block-start: 0px !important; }
+.urlbarView-row[label]::before { display: none !important; }
+.urlbarView-results {
+    max-height: 700px !important; /* TODO fix */
+    overflow-y: auto !important;
+}
