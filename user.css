@@ -27,7 +27,11 @@
 
 /****************************************/
 /* url bar suggestion compact */
-.urlbarView { margin-inline: 5px !important; }
+.urlbarView {
+    margin-inline: 0px !important;
+    width: 100% !important;
+    border-inline: 0px !important;
+}
 .urlbarView-row-inner { padding-block: 0px !important; }
 .urlbarView-favicon {
     margin-inline-start: 2px !important;
@@ -37,6 +41,37 @@
 .urlbarView-row[label] { margin-block-start: 0px !important; }
 .urlbarView-row[label]::before { display: none !important; }
 .urlbarView-results {
-    max-height: 700px !important; /* TODO fix */
+    max-height: 696px !important; /* TODO fix */
     overflow-y: auto !important;
+    scrollbar-color: #DD6297 #eef4f9 !important;
+    background-color: #eef4f9 !important;
 }
+.urlbarView-url {
+  .urlbarView-row:not([selected]) & {
+    color: gray !important;
+  }
+}
+.urlbar-go-button, #searchmode-switcher-dropmarker { display: none !important; }
+#urlbar-searchmode-switcher {
+    background-color: unset !important;
+    padding-inline: 0px !important;
+    padding: 0px !important;
+}
+.urlbar-input-container { border: 0px !important; }
+
+.toolbarbutton-badge {
+    padding: 0px !important;
+    box-shadow: unset !important;
+    margin-top: 0px !important;
+    margin-inline-end: 0px !important;
+    background-color: rgba(47, 42, 42, 0.38);
+    font-size: 11px !important;
+}
+
+:root {
+    --urlbarView-results-padding: 0px !important;
+    --urlbarView-row-gutter: 0px !important;
+    --urlbarView-highlight-background: #DD6297 !important;
+    --toolbarbutton-inner-padding: 0px !important;
+}
+.urlbarView-url, #urlbar { font-size: 12px !important; }
