@@ -75,3 +75,7 @@
     --toolbarbutton-inner-padding: 0px !important;
 }
 .urlbarView-url, #urlbar { font-size: 12px !important; }
+
+/* menu bar selected item background color */
+/* (default only underlines it, not good enough) */
+menubar > menu { &[open] { background-color: AccentColor !important; } }

@@ -25,7 +25,7 @@
 @import url("_misc.css");
 
 /** If you don't want Windows-like context menus, remove this line */
-@import url("_contextMenuWindowsLike.css");
+/*@import url("_contextMenuWindowsLike.css");*/
 
 /** If you don't want colourised context menus, remove this line */
 /*@import url("_contextMenuThemeColours.css");*/
