@@ -11,9 +11,15 @@
   min-height: unset !important;
 }
 
+#urlbar {
+  height: 19px !important;
+}
+
 #urlbar-container {
 /*  min-height: 17px !important; */
   min-height: unset !important;
+  padding: 0px !important;
+  margin: 0px !important;
 }
 
 /* Bar resizing */
